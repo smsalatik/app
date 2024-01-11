@@ -1,0 +1,80 @@
+[
+    {
+        "model": "products.products",
+        "pk": 1,
+        "fields": {
+            "name": "Куриные крулышки",
+            "slug": "kurinye-krulyshki",
+            "description": "300 гр",
+            "image": "",
+            "price": "200.00",
+            "quantity": 10,
+            "category": 7
+        }
+    },
+    {
+        "model": "products.products",
+        "pk": 2,
+        "fields": {
+            "name": "Куриные бедра",
+            "slug": "kurinye-bedra",
+            "description": "300 гр",
+            "image": "",
+            "price": "300.00",
+            "quantity": 10,
+            "category": 7
+        }
+    },
+    {
+        "model": "products.products",
+        "pk": 3,
+        "fields": {
+            "name": "Говяжий фарш",
+            "slug": "govyazhij-farsh",
+            "description": "500 гр",
+            "image": "",
+            "price": "1000.00",
+            "quantity": 7,
+            "category": 5
+        }
+    },
+    {
+        "model": "products.products",
+        "pk": 4,
+        "fields": {
+            "name": "Баранья лопата",
+            "slug": "baranya-lopata",
+            "description": "1 кг",
+            "image": "",
+            "price": "1500.00",
+            "quantity": 4,
+            "category": 8
+        }
+    },
+    {
+        "model": "products.products",
+        "pk": 5,
+        "fields": {
+            "name": "Дагестанский сыр",
+            "slug": "dagestanskij-syr",
+            "description": "500 гр",
+            "image": "",
+            "price": "2000.00",
+            "quantity": 5,
+            "category": 10
+        }
+    },
+    {
+        "model": "products.products",
+        "pk": 6,
+        "fields": {
+            "name": "Молоко",
+            "slug": "moloko",
+            "description": "1 л",
+            "image": "",
+            "price": "130.00",
+            "quantity": 10,
+            "category": 10
+        }
+    }
+]
