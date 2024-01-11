@@ -41,7 +41,7 @@
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item  text-white" href="#">Доставка и оплата</a></li>
                                 <li><a class="dropdown-item  text-white" href="#">Контактная информация</a></li>
-                                <li><a class="dropdown-item  text-white" href="{% url "main:about" %}">Про нас</a></li>
+                                <li><a class="dropdown-item  text-white" href="{% url "main:about" %}">О нас</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
@@ -88,13 +88,13 @@
                             height="16">
                     </button>
                     <ul class="dropdown-menu bg-dark" data-bs-theme="dark">
-                        <li><a class="dropdown-item text-white" href="goods/catalog.html">Все товары</a></li>
-                        <li><a class="dropdown-item text-white" href="goods/catalog.html">Сыр</a></li>
-                        <li><a class="dropdown-item text-white" href="goods/catalog.html">Колбаскые изделия</a></li>
-                        <li><a class="dropdown-item text-white" href="goods/catalog.html">Курица</a></li>
-                        <li><a class="dropdown-item text-white" href="goods/catalog.html">Баранина</a></li>
-                        <li><a class="dropdown-item text-white" href="goods/catalog.html">Говядина</a></li>
-                        <li><a class="dropdown-item text-white" href="goods/catalog.html">Молочная продукция</a></li>
+                        <li><a class="dropdown-item text-white" href="{% url "catalog:index" %}">Все товары</a></li>
+                        <li><a class="dropdown-item text-white" href="{% url "catalog:index" %}">Фарш</a></li>
+                        <li><a class="dropdown-item text-white" href="{% url "catalog:index" %}">Колбаскые изделия</a></li>
+                        <li><a class="dropdown-item text-white" href="{% url "catalog:index" %}">Птица</a></li>
+                        <li><a class="dropdown-item text-white" href="{% url "catalog:index" %}">Баранина</a></li>
+                        <li><a class="dropdown-item text-white" href="{% url "catalog:index" %}">Говядина</a></li>
+                        <li><a class="dropdown-item text-white" href="{% url "catalog:index" %}">Молочная продукция</a></li>
                     </ul>
                 </div>
                 <!-- Значек корзины, вызывает модальное окно -->
