@@ -3,9 +3,12 @@ from django.shortcuts import render
 from products.models import Products
 
 
-def catalog(request):
-    products = Products.objects.all()
-
+def catalog(request, category_slug):
+    if category_slug == 'all':
+        products = Products.objects.all()
+    else:
+        products = Products.objects.filter(category__slug=category_slug)
+        
     context = {
         "title": "DAGMeet - Каталог",
         "products": products,
