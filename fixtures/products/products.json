@@ -6,7 +6,7 @@
             "name": "Куриные крулышки",
             "slug": "kurinye-krulyshki",
             "description": "300 гр",
-            "image": "",
+            "image": "products_images/крылья.jpg",
             "price": "200.00",
             "quantity": 10,
             "category": 7
@@ -19,7 +19,7 @@
             "name": "Куриные бедра",
             "slug": "kurinye-bedra",
             "description": "300 гр",
-            "image": "",
+            "image": "products_images/кур_бедра.jpg",
             "price": "300.00",
             "quantity": 10,
             "category": 7
@@ -32,7 +32,7 @@
             "name": "Говяжий фарш",
             "slug": "govyazhij-farsh",
             "description": "500 гр",
-            "image": "",
+            "image": "products_images/фарш.webp",
             "price": "1000.00",
             "quantity": 7,
             "category": 5
@@ -45,7 +45,7 @@
             "name": "Баранья лопата",
             "slug": "baranya-lopata",
             "description": "1 кг",
-            "image": "",
+            "image": "products_images/лопатка_барана.jpg",
             "price": "1500.00",
             "quantity": 4,
             "category": 8
@@ -58,7 +58,7 @@
             "name": "Дагестанский сыр",
             "slug": "dagestanskij-syr",
             "description": "500 гр",
-            "image": "",
+            "image": "products_images/сыр.jpg",
             "price": "2000.00",
             "quantity": 5,
             "category": 10
@@ -71,7 +71,7 @@
             "name": "Молоко",
             "slug": "moloko",
             "description": "1 л",
-            "image": "",
+            "image": "products_images/молоко.jpg",
             "price": "130.00",
             "quantity": 10,
             "category": 10
